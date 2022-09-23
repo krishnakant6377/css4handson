@@ -1,0 +1,112 @@
+.box1{
+    background-image:  linear-gradient( 90deg,   red,green, yellow);
+     
+    text-align: center;
+   
+    
+}
+ .offer{background-color: aqua;
+font-size: larger;
+font-weight: bolder; text-decoration: underline;}
+.box2{width: 600px;
+    height: 80px;
+    border-radius: 20px;
+    border: 5px solid red;
+    background-color: skyblue;
+   
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+
+
+
+}
+li{text-align: center;}
+.parent{border: 1px solid red;
+background-color: aquamarine;
+border-radius: 5px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-bottom: 20px;
+}
+.child{border: 2px solid green ;
+border-radius: 5px;
+background-color: aqua;
+color: rgb(2, 2, 32);
+width: 400px ;
+height: 100px;
+font-weight: bold;
+}
+.box3{ background-image:  radial-gradient(   yellow 30% ,red);
+height: 50px; 
+text-align: center;
+margin-bottom: 20px;
+margin-top: 20px;}
+.topper{
+font-weight: bold;
+text-decoration: red underline;
+}
+.papa{border:3px solid green ;
+display: flex;
+justify-content: space-around;
+background-image: radial-gradient(blue ,green );
+height: 300px;
+}
+.bete{width: 200px;
+    height: 100px;
+    text-decoration: underline;
+    color: brown;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.grid{display: grid;
+border: 1px solid gray;
+grid-template-rows: 60px 80px 160px 40px;
+grid-template-columns: repeat(3,411px) 70px;
+margin-top:  20px;
+grid-gap: 10px;
+
+/* padding: 20px; */
+}
+.grid1{grid-row: 1/2;
+grid-column: 1/5;
+background-color: tomato;
+color: white;
+text-align: center;
+font-weight: bolder;}
+.grid2{background-color: green;
+color: white;
+font-weight: bolder;
+text-align: center;}
+.grid3{background-color: rgb(65, 129, 224);
+    color: white;font-weight: bolder;
+}
+    
+    .grid4{background-color: rgb(123, 18, 194);
+        color: white;
+        font-weight: bolder;}
+
+.grid5{background-color: rgba(24, 22, 22, 0.863);
+color: white;
+font-weight: bolder;
+grid-row: 2/4;
+grid-column: 4/5;}
+
+.grid6{grid-row: 3/4;
+grid-column: 1/4;
+color: white;
+font-weight: bolder;
+background-color: orange;}
+
+.grid7{grid-row: 4/5;
+    grid-column: 1/5;
+    font-weight: bolder;
+    background-color:rgb(79, 189, 233);
+    text-align: center;}
+
